@@ -1,0 +1,83 @@
+{
+    "name": "compendium-browser",
+    "title": "Compendium Browser",
+    "description": "A module to easily browse and filter spells as well as npcs loaded from compendie.",
+    "version": "0.4.0",
+    "author": "Felix#6196",
+    "type": "module",
+    "includes": [
+      "./assets/**",
+      "./lang/**",
+      "./scripts/**",
+      "./styles/**",
+      "./templates/**",
+      "./template/**",
+      "./module.json",
+      "./README.md",
+      "./icons/**",
+      "./packs/**"
+    ],
+    "media": [
+      {
+        "type": "icon",
+        "location": ""
+      }, 
+      {
+        "type": "cover",
+        "location": ""
+      },
+      {
+        "type": "screenshot",
+        "location": ""
+      }
+    ],
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      },
+      {
+        "lang": "ja",
+        "name": "Japanese",
+        "path": "lang/ja.json"
+      },
+      {
+        "lang": "fr",
+        "name": "French (FRANCE)",
+        "path": "lang/fr.json"
+      },
+      {
+        "lang": "pt-BR",
+        "name": "Português (Brasil)",
+        "path": "lang/pt-BR.json"
+      },
+      {
+        "lang": "es",
+        "name": "Español",
+        "path": "lang/es.json"
+      },
+      {
+        "lang": "de",
+        "name": "Deutsch",
+        "path": "lang/de.json"
+      }
+    ],
+    "systems": ["dnd5e"],
+    "scripts": [
+      "scripts/SpellBrowser.js"
+    ],
+    "esmodules": [
+      "compendium-browser.js"
+    ],
+    "styles": [
+      "styles/compendium-browser.css"
+    ],
+    "packs": [],
+    "url": "https://github.com/League-of-Foundry-Developers/compendium-browser",
+    "manifest": "https://raw.githubusercontent.com/League-of-Foundry-Developers/compendium-browser/master/module.json",
+    "download": "https://github.com/League-of-Foundry-Developers/compendium-browser/archive/master.zip",
+    "minimumCoreVersion": "0.7.6",
+    "compatibleCoreVersion": "0.7.9",
+    "minimumSystemVersion": "1.2.2"
+}
