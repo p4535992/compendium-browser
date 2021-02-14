@@ -64,9 +64,7 @@
       }
     ],
     "systems": ["dnd5e"],
-    "scripts": [
-      "scripts/SpellBrowser.js"
-    ],
+    "scripts": [],
     "esmodules": [
       "compendium-browser.js"
     ],
